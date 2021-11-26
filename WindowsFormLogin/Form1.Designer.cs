@@ -34,6 +34,8 @@ namespace WindowsFormLogin
             this.UsernameTB = new System.Windows.Forms.TextBox();
             this.PasswordLBL = new System.Windows.Forms.Label();
             this.PasswordTB = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.DateOfBirthBTP = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // RegisterUserLBL
@@ -85,12 +87,34 @@ namespace WindowsFormLogin
             this.PasswordTB.Size = new System.Drawing.Size(227, 22);
             this.PasswordTB.TabIndex = 4;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(14, 127);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 15);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Date Of Birth";
+            // 
+            // DateOfBirthBTP
+            // 
+            this.DateOfBirthBTP.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DateOfBirthBTP.Location = new System.Drawing.Point(100, 121);
+            this.DateOfBirthBTP.MaxDate = new System.DateTime(2100, 12, 31, 0, 0, 0, 0);
+            this.DateOfBirthBTP.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
+            this.DateOfBirthBTP.Name = "DateOfBirthBTP";
+            this.DateOfBirthBTP.Size = new System.Drawing.Size(227, 22);
+            this.DateOfBirthBTP.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(452, 450);
+            this.Controls.Add(this.DateOfBirthBTP);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.PasswordTB);
             this.Controls.Add(this.PasswordLBL);
             this.Controls.Add(this.UsernameTB);
@@ -110,6 +134,8 @@ namespace WindowsFormLogin
         private System.Windows.Forms.TextBox UsernameTB;
         private System.Windows.Forms.Label PasswordLBL;
         private System.Windows.Forms.TextBox PasswordTB;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker DateOfBirthBTP;
     }
 }
 
