@@ -29,18 +29,18 @@ namespace WindowsFormLogin
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.RegisterUserLBL = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // RegisterUserLBL
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Inter", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Register User";
+            this.RegisterUserLBL.AutoSize = true;
+            this.RegisterUserLBL.Font = new System.Drawing.Font("Inter", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegisterUserLBL.Location = new System.Drawing.Point(13, 13);
+            this.RegisterUserLBL.Name = "RegisterUserLBL";
+            this.RegisterUserLBL.Size = new System.Drawing.Size(135, 23);
+            this.RegisterUserLBL.TabIndex = 0;
+            this.RegisterUserLBL.Text = "Register User";
             // 
             // Form1
             // 
@@ -48,7 +48,7 @@ namespace WindowsFormLogin
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(452, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.RegisterUserLBL);
             this.Name = "Form1";
             this.Text = "User Management System";
             this.ResumeLayout(false);
@@ -58,7 +58,7 @@ namespace WindowsFormLogin
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label RegisterUserLBL;
     }
 }
 
