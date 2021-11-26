@@ -10,5 +10,8 @@ namespace WindowsFormLogin
     {
         public String UserName { get; set; }
         public String Password { get; set; }
+        public int Age { get; set; }
+        public String Address { get; set; }
+        public String ContactNumber { get; set; }
     }
 }
