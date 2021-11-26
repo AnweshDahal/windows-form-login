@@ -50,7 +50,7 @@ namespace WindowsFormLogin
             this.ClientSize = new System.Drawing.Size(452, 450);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "User Login";
+            this.Text = "User Management System";
             this.ResumeLayout(false);
             this.PerformLayout();
 
