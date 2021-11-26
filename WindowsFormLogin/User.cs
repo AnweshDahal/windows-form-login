@@ -13,5 +13,13 @@ namespace WindowsFormLogin
         public DateTime DateOfBirth { get; set; }
         public String Address { get; set; }
         public String ContactNumber { get; set; }
+
+        public int Age
+        {
+            get
+            {
+                return DateTime.Now.Year - this.DateOfBirth.Year;
+            }
+        }
     }
 }
