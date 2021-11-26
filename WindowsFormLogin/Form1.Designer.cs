@@ -36,6 +36,8 @@ namespace WindowsFormLogin
             this.PasswordTB = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.DateOfBirthBTP = new System.Windows.Forms.DateTimePicker();
+            this.AddressLBL = new System.Windows.Forms.Label();
+            this.AddressTB = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // RegisterUserLBL
@@ -91,7 +93,7 @@ namespace WindowsFormLogin
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, 127);
+            this.label1.Location = new System.Drawing.Point(15, 127);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 15);
             this.label1.TabIndex = 5;
@@ -107,12 +109,34 @@ namespace WindowsFormLogin
             this.DateOfBirthBTP.Size = new System.Drawing.Size(227, 22);
             this.DateOfBirthBTP.TabIndex = 6;
             // 
+            // AddressLBL
+            // 
+            this.AddressLBL.AutoSize = true;
+            this.AddressLBL.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddressLBL.Location = new System.Drawing.Point(15, 158);
+            this.AddressLBL.Name = "AddressLBL";
+            this.AddressLBL.Size = new System.Drawing.Size(52, 15);
+            this.AddressLBL.TabIndex = 7;
+            this.AddressLBL.Text = "Address";
+            // 
+            // AddressTB
+            // 
+            this.AddressTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.AddressTB.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddressTB.Location = new System.Drawing.Point(100, 157);
+            this.AddressTB.Multiline = true;
+            this.AddressTB.Name = "AddressTB";
+            this.AddressTB.Size = new System.Drawing.Size(227, 52);
+            this.AddressTB.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(452, 450);
+            this.Controls.Add(this.AddressTB);
+            this.Controls.Add(this.AddressLBL);
             this.Controls.Add(this.DateOfBirthBTP);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.PasswordTB);
@@ -136,6 +160,8 @@ namespace WindowsFormLogin
         private System.Windows.Forms.TextBox PasswordTB;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker DateOfBirthBTP;
+        private System.Windows.Forms.Label AddressLBL;
+        private System.Windows.Forms.TextBox AddressTB;
     }
 }
 
