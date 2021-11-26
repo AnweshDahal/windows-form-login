@@ -29,16 +29,18 @@ namespace WindowsFormLogin
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // panel1
+            // label1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Salmon;
-            this.panel1.Location = new System.Drawing.Point(13, 13);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(183, 54);
-            this.panel1.TabIndex = 0;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Inter", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(135, 23);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Register User";
             // 
             // Form1
             // 
@@ -46,16 +48,17 @@ namespace WindowsFormLogin
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(452, 450);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "User Login";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
