@@ -10,7 +10,7 @@ namespace WindowsFormLogin
     {
         public String Username { get; set; }
         public String Password { get; set; }
-        public int Age { get; set; }
+        public DateTime DateOfBirth { get; set; }
         public String Address { get; set; }
         public String ContactNumber { get; set; }
     }
