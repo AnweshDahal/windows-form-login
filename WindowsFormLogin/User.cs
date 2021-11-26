@@ -8,7 +8,7 @@ namespace WindowsFormLogin
 {
     public class User
     {
-        public String UserName { get; set; }
+        public String Username { get; set; }
         public String Password { get; set; }
         public int Age { get; set; }
         public String Address { get; set; }
