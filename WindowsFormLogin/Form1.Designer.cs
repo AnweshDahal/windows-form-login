@@ -38,6 +38,8 @@ namespace WindowsFormLogin
             this.DateOfBirthBTP = new System.Windows.Forms.DateTimePicker();
             this.AddressLBL = new System.Windows.Forms.Label();
             this.AddressTB = new System.Windows.Forms.TextBox();
+            this.PhoneNumberLBL = new System.Windows.Forms.Label();
+            this.PhoneNumberTB = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // RegisterUserLBL
@@ -129,12 +131,33 @@ namespace WindowsFormLogin
             this.AddressTB.Size = new System.Drawing.Size(227, 52);
             this.AddressTB.TabIndex = 8;
             // 
+            // PhoneNumberLBL
+            // 
+            this.PhoneNumberLBL.AutoSize = true;
+            this.PhoneNumberLBL.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PhoneNumberLBL.Location = new System.Drawing.Point(15, 226);
+            this.PhoneNumberLBL.Name = "PhoneNumberLBL";
+            this.PhoneNumberLBL.Size = new System.Drawing.Size(90, 15);
+            this.PhoneNumberLBL.TabIndex = 9;
+            this.PhoneNumberLBL.Text = "Phone Number";
+            // 
+            // PhoneNumberTB
+            // 
+            this.PhoneNumberTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PhoneNumberTB.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PhoneNumberTB.Location = new System.Drawing.Point(112, 226);
+            this.PhoneNumberTB.Name = "PhoneNumberTB";
+            this.PhoneNumberTB.Size = new System.Drawing.Size(215, 22);
+            this.PhoneNumberTB.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(452, 450);
+            this.Controls.Add(this.PhoneNumberTB);
+            this.Controls.Add(this.PhoneNumberLBL);
             this.Controls.Add(this.AddressTB);
             this.Controls.Add(this.AddressLBL);
             this.Controls.Add(this.DateOfBirthBTP);
@@ -162,6 +185,8 @@ namespace WindowsFormLogin
         private System.Windows.Forms.DateTimePicker DateOfBirthBTP;
         private System.Windows.Forms.Label AddressLBL;
         private System.Windows.Forms.TextBox AddressTB;
+        private System.Windows.Forms.Label PhoneNumberLBL;
+        private System.Windows.Forms.TextBox PhoneNumberTB;
     }
 }
 
