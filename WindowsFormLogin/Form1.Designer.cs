@@ -32,6 +32,8 @@ namespace WindowsFormLogin
             this.RegisterUserLBL = new System.Windows.Forms.Label();
             this.UsernameLBL = new System.Windows.Forms.Label();
             this.UsernameTB = new System.Windows.Forms.TextBox();
+            this.PasswordLBL = new System.Windows.Forms.Label();
+            this.PasswordTB = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // RegisterUserLBL
@@ -64,12 +66,33 @@ namespace WindowsFormLogin
             this.UsernameTB.Size = new System.Drawing.Size(227, 22);
             this.UsernameTB.TabIndex = 2;
             // 
+            // PasswordLBL
+            // 
+            this.PasswordLBL.AutoSize = true;
+            this.PasswordLBL.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordLBL.Location = new System.Drawing.Point(14, 90);
+            this.PasswordLBL.Name = "PasswordLBL";
+            this.PasswordLBL.Size = new System.Drawing.Size(62, 15);
+            this.PasswordLBL.TabIndex = 3;
+            this.PasswordLBL.Text = "Password";
+            // 
+            // PasswordTB
+            // 
+            this.PasswordTB.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordTB.Location = new System.Drawing.Point(100, 87);
+            this.PasswordTB.Name = "PasswordTB";
+            this.PasswordTB.PasswordChar = '●';
+            this.PasswordTB.Size = new System.Drawing.Size(227, 22);
+            this.PasswordTB.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(452, 450);
+            this.Controls.Add(this.PasswordTB);
+            this.Controls.Add(this.PasswordLBL);
             this.Controls.Add(this.UsernameTB);
             this.Controls.Add(this.UsernameLBL);
             this.Controls.Add(this.RegisterUserLBL);
@@ -85,6 +108,8 @@ namespace WindowsFormLogin
         private System.Windows.Forms.Label RegisterUserLBL;
         private System.Windows.Forms.Label UsernameLBL;
         private System.Windows.Forms.TextBox UsernameTB;
+        private System.Windows.Forms.Label PasswordLBL;
+        private System.Windows.Forms.TextBox PasswordTB;
     }
 }
 
