@@ -40,6 +40,7 @@ namespace WindowsFormLogin
             this.AddressTB = new System.Windows.Forms.TextBox();
             this.PhoneNumberLBL = new System.Windows.Forms.Label();
             this.PhoneNumberTB = new System.Windows.Forms.TextBox();
+            this.RegisterBTN = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // RegisterUserLBL
@@ -151,12 +152,27 @@ namespace WindowsFormLogin
             this.PhoneNumberTB.Size = new System.Drawing.Size(227, 22);
             this.PhoneNumberTB.TabIndex = 10;
             // 
+            // RegisterBTN
+            // 
+            this.RegisterBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(202)))), ((int)(((byte)(252)))));
+            this.RegisterBTN.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(101)))), ((int)(((byte)(208)))));
+            this.RegisterBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RegisterBTN.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegisterBTN.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(68)))), ((int)(((byte)(127)))));
+            this.RegisterBTN.Location = new System.Drawing.Point(18, 264);
+            this.RegisterBTN.Name = "RegisterBTN";
+            this.RegisterBTN.Size = new System.Drawing.Size(338, 36);
+            this.RegisterBTN.TabIndex = 11;
+            this.RegisterBTN.Text = "Register";
+            this.RegisterBTN.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(452, 450);
+            this.ClientSize = new System.Drawing.Size(374, 450);
+            this.Controls.Add(this.RegisterBTN);
             this.Controls.Add(this.PhoneNumberTB);
             this.Controls.Add(this.PhoneNumberLBL);
             this.Controls.Add(this.AddressTB);
@@ -188,6 +204,7 @@ namespace WindowsFormLogin
         private System.Windows.Forms.TextBox AddressTB;
         private System.Windows.Forms.Label PhoneNumberLBL;
         private System.Windows.Forms.TextBox PhoneNumberTB;
+        private System.Windows.Forms.Button RegisterBTN;
     }
 }
 
