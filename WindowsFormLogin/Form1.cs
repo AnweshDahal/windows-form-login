@@ -16,5 +16,10 @@ namespace WindowsFormLogin
         {
             InitializeComponent();
         }
+
+        private void RegisterBTN_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
