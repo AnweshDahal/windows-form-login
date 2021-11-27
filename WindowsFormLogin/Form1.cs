@@ -36,5 +36,10 @@ namespace WindowsFormLogin
             // Registering new user
             controller.RegisterUser(newUser);
         }
+
+        private void LoginBTN_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
