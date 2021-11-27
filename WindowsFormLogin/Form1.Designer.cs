@@ -171,7 +171,7 @@ namespace WindowsFormLogin
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(452, 450);
+            this.ClientSize = new System.Drawing.Size(374, 450);
             this.Controls.Add(this.RegisterBTN);
             this.Controls.Add(this.PhoneNumberTB);
             this.Controls.Add(this.PhoneNumberLBL);
