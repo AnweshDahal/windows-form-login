@@ -67,7 +67,7 @@ namespace WindowsFormLogin
             this.UsernameTB.BackColor = System.Drawing.Color.White;
             this.UsernameTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.UsernameTB.Font = new System.Drawing.Font("Inter", 9F);
-            this.UsernameTB.Location = new System.Drawing.Point(100, 51);
+            this.UsernameTB.Location = new System.Drawing.Point(129, 51);
             this.UsernameTB.Name = "UsernameTB";
             this.UsernameTB.Size = new System.Drawing.Size(227, 22);
             this.UsernameTB.TabIndex = 2;
@@ -85,7 +85,7 @@ namespace WindowsFormLogin
             // PasswordTB
             // 
             this.PasswordTB.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PasswordTB.Location = new System.Drawing.Point(100, 87);
+            this.PasswordTB.Location = new System.Drawing.Point(129, 87);
             this.PasswordTB.Name = "PasswordTB";
             this.PasswordTB.PasswordChar = '●';
             this.PasswordTB.Size = new System.Drawing.Size(227, 22);
@@ -104,7 +104,7 @@ namespace WindowsFormLogin
             // DateOfBirthBTP
             // 
             this.DateOfBirthBTP.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DateOfBirthBTP.Location = new System.Drawing.Point(100, 121);
+            this.DateOfBirthBTP.Location = new System.Drawing.Point(129, 121);
             this.DateOfBirthBTP.MaxDate = new System.DateTime(2100, 12, 31, 0, 0, 0, 0);
             this.DateOfBirthBTP.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.DateOfBirthBTP.Name = "DateOfBirthBTP";
@@ -125,7 +125,7 @@ namespace WindowsFormLogin
             // 
             this.AddressTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.AddressTB.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddressTB.Location = new System.Drawing.Point(100, 157);
+            this.AddressTB.Location = new System.Drawing.Point(129, 156);
             this.AddressTB.Multiline = true;
             this.AddressTB.Name = "AddressTB";
             this.AddressTB.Size = new System.Drawing.Size(227, 52);
@@ -145,9 +145,9 @@ namespace WindowsFormLogin
             // 
             this.PhoneNumberTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PhoneNumberTB.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PhoneNumberTB.Location = new System.Drawing.Point(112, 226);
+            this.PhoneNumberTB.Location = new System.Drawing.Point(129, 224);
             this.PhoneNumberTB.Name = "PhoneNumberTB";
-            this.PhoneNumberTB.Size = new System.Drawing.Size(215, 22);
+            this.PhoneNumberTB.Size = new System.Drawing.Size(227, 22);
             this.PhoneNumberTB.TabIndex = 10;
             // 
             // Form1
