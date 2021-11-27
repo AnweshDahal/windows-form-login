@@ -84,6 +84,7 @@ namespace WindowsFormLogin
             // 
             // PasswordTB
             // 
+            this.PasswordTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PasswordTB.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswordTB.Location = new System.Drawing.Point(129, 87);
             this.PasswordTB.Name = "PasswordTB";
