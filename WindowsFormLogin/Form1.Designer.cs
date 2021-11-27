@@ -44,6 +44,9 @@ namespace WindowsFormLogin
             this.loginHeading = new System.Windows.Forms.Label();
             this.LoginUsernameLBL = new System.Windows.Forms.Label();
             this.LoginUsernameTB = new System.Windows.Forms.TextBox();
+            this.LoginPasswordLBL = new System.Windows.Forms.Label();
+            this.LoginPasswordTB = new System.Windows.Forms.TextBox();
+            this.LoginBTN = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // RegisterUserLBL
@@ -200,11 +203,47 @@ namespace WindowsFormLogin
             // 
             // LoginUsernameTB
             // 
+            this.LoginUsernameTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LoginUsernameTB.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginUsernameTB.Location = new System.Drawing.Point(129, 374);
             this.LoginUsernameTB.Name = "LoginUsernameTB";
             this.LoginUsernameTB.Size = new System.Drawing.Size(227, 22);
             this.LoginUsernameTB.TabIndex = 14;
+            // 
+            // LoginPasswordLBL
+            // 
+            this.LoginPasswordLBL.AutoSize = true;
+            this.LoginPasswordLBL.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginPasswordLBL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(60)))), ((int)(((byte)(63)))));
+            this.LoginPasswordLBL.Location = new System.Drawing.Point(15, 415);
+            this.LoginPasswordLBL.Name = "LoginPasswordLBL";
+            this.LoginPasswordLBL.Size = new System.Drawing.Size(62, 15);
+            this.LoginPasswordLBL.TabIndex = 15;
+            this.LoginPasswordLBL.Text = "Password";
+            // 
+            // LoginPasswordTB
+            // 
+            this.LoginPasswordTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LoginPasswordTB.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginPasswordTB.Location = new System.Drawing.Point(129, 413);
+            this.LoginPasswordTB.Name = "LoginPasswordTB";
+            this.LoginPasswordTB.PasswordChar = '●';
+            this.LoginPasswordTB.Size = new System.Drawing.Size(227, 22);
+            this.LoginPasswordTB.TabIndex = 4;
+            // 
+            // LoginBTN
+            // 
+            this.LoginBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(231)))), ((int)(((byte)(232)))));
+            this.LoginBTN.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(121)))), ((int)(((byte)(27)))));
+            this.LoginBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LoginBTN.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginBTN.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(121)))), ((int)(((byte)(27)))));
+            this.LoginBTN.Location = new System.Drawing.Point(18, 453);
+            this.LoginBTN.Name = "LoginBTN";
+            this.LoginBTN.Size = new System.Drawing.Size(338, 38);
+            this.LoginBTN.TabIndex = 16;
+            this.LoginBTN.Text = "Login";
+            this.LoginBTN.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -212,6 +251,8 @@ namespace WindowsFormLogin
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(374, 621);
+            this.Controls.Add(this.LoginBTN);
+            this.Controls.Add(this.LoginPasswordLBL);
             this.Controls.Add(this.LoginUsernameTB);
             this.Controls.Add(this.LoginUsernameLBL);
             this.Controls.Add(this.loginHeading);
@@ -222,6 +263,7 @@ namespace WindowsFormLogin
             this.Controls.Add(this.AddressLBL);
             this.Controls.Add(this.DateOfBirthBTP);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.LoginPasswordTB);
             this.Controls.Add(this.PasswordTB);
             this.Controls.Add(this.PasswordLBL);
             this.Controls.Add(this.UsernameTB);
@@ -251,6 +293,9 @@ namespace WindowsFormLogin
         private System.Windows.Forms.Label loginHeading;
         private System.Windows.Forms.Label LoginUsernameLBL;
         private System.Windows.Forms.TextBox LoginUsernameTB;
+        private System.Windows.Forms.Label LoginPasswordLBL;
+        private System.Windows.Forms.TextBox LoginPasswordTB;
+        private System.Windows.Forms.Button LoginBTN;
     }
 }
 
