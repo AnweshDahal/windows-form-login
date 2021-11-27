@@ -47,6 +47,7 @@ namespace WindowsFormLogin
             // 
             this.RegisterUserLBL.AutoSize = true;
             this.RegisterUserLBL.Font = new System.Drawing.Font("Inter", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegisterUserLBL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(60)))), ((int)(((byte)(63)))));
             this.RegisterUserLBL.Location = new System.Drawing.Point(13, 13);
             this.RegisterUserLBL.Name = "RegisterUserLBL";
             this.RegisterUserLBL.Size = new System.Drawing.Size(135, 23);
@@ -57,6 +58,7 @@ namespace WindowsFormLogin
             // 
             this.UsernameLBL.AutoSize = true;
             this.UsernameLBL.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UsernameLBL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(60)))), ((int)(((byte)(63)))));
             this.UsernameLBL.Location = new System.Drawing.Point(15, 53);
             this.UsernameLBL.Name = "UsernameLBL";
             this.UsernameLBL.Size = new System.Drawing.Size(64, 15);
@@ -77,6 +79,7 @@ namespace WindowsFormLogin
             // 
             this.PasswordLBL.AutoSize = true;
             this.PasswordLBL.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordLBL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(60)))), ((int)(((byte)(63)))));
             this.PasswordLBL.Location = new System.Drawing.Point(14, 90);
             this.PasswordLBL.Name = "PasswordLBL";
             this.PasswordLBL.Size = new System.Drawing.Size(62, 15);
@@ -97,6 +100,7 @@ namespace WindowsFormLogin
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(60)))), ((int)(((byte)(63)))));
             this.label1.Location = new System.Drawing.Point(15, 127);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 15);
@@ -117,6 +121,7 @@ namespace WindowsFormLogin
             // 
             this.AddressLBL.AutoSize = true;
             this.AddressLBL.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddressLBL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(60)))), ((int)(((byte)(63)))));
             this.AddressLBL.Location = new System.Drawing.Point(15, 158);
             this.AddressLBL.Name = "AddressLBL";
             this.AddressLBL.Size = new System.Drawing.Size(52, 15);
@@ -137,6 +142,7 @@ namespace WindowsFormLogin
             // 
             this.PhoneNumberLBL.AutoSize = true;
             this.PhoneNumberLBL.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PhoneNumberLBL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(60)))), ((int)(((byte)(63)))));
             this.PhoneNumberLBL.Location = new System.Drawing.Point(15, 226);
             this.PhoneNumberLBL.Name = "PhoneNumberLBL";
             this.PhoneNumberLBL.Size = new System.Drawing.Size(90, 15);
