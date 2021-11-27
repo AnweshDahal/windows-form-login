@@ -171,6 +171,7 @@ namespace WindowsFormLogin
             this.RegisterBTN.TabIndex = 11;
             this.RegisterBTN.Text = "Register";
             this.RegisterBTN.UseVisualStyleBackColor = false;
+            this.RegisterBTN.Click += new System.EventHandler(this.RegisterBTN_Click);
             // 
             // Form1
             // 
