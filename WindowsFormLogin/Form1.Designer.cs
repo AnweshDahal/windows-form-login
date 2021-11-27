@@ -41,6 +41,9 @@ namespace WindowsFormLogin
             this.PhoneNumberLBL = new System.Windows.Forms.Label();
             this.PhoneNumberTB = new System.Windows.Forms.TextBox();
             this.RegisterBTN = new System.Windows.Forms.Button();
+            this.loginHeading = new System.Windows.Forms.Label();
+            this.LoginUsernameLBL = new System.Windows.Forms.Label();
+            this.LoginUsernameTB = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // RegisterUserLBL
@@ -173,12 +176,45 @@ namespace WindowsFormLogin
             this.RegisterBTN.UseVisualStyleBackColor = false;
             this.RegisterBTN.Click += new System.EventHandler(this.RegisterBTN_Click);
             // 
+            // loginHeading
+            // 
+            this.loginHeading.AutoSize = true;
+            this.loginHeading.Font = new System.Drawing.Font("Inter", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginHeading.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(60)))), ((int)(((byte)(63)))));
+            this.loginHeading.Location = new System.Drawing.Point(13, 336);
+            this.loginHeading.Name = "loginHeading";
+            this.loginHeading.Size = new System.Drawing.Size(62, 23);
+            this.loginHeading.TabIndex = 12;
+            this.loginHeading.Text = "Login";
+            // 
+            // LoginUsernameLBL
+            // 
+            this.LoginUsernameLBL.AutoSize = true;
+            this.LoginUsernameLBL.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginUsernameLBL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(60)))), ((int)(((byte)(63)))));
+            this.LoginUsernameLBL.Location = new System.Drawing.Point(14, 377);
+            this.LoginUsernameLBL.Name = "LoginUsernameLBL";
+            this.LoginUsernameLBL.Size = new System.Drawing.Size(64, 15);
+            this.LoginUsernameLBL.TabIndex = 13;
+            this.LoginUsernameLBL.Text = "Username";
+            // 
+            // LoginUsernameTB
+            // 
+            this.LoginUsernameTB.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginUsernameTB.Location = new System.Drawing.Point(129, 374);
+            this.LoginUsernameTB.Name = "LoginUsernameTB";
+            this.LoginUsernameTB.Size = new System.Drawing.Size(227, 22);
+            this.LoginUsernameTB.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(374, 450);
+            this.ClientSize = new System.Drawing.Size(374, 621);
+            this.Controls.Add(this.LoginUsernameTB);
+            this.Controls.Add(this.LoginUsernameLBL);
+            this.Controls.Add(this.loginHeading);
             this.Controls.Add(this.RegisterBTN);
             this.Controls.Add(this.PhoneNumberTB);
             this.Controls.Add(this.PhoneNumberLBL);
@@ -212,6 +248,9 @@ namespace WindowsFormLogin
         private System.Windows.Forms.Label PhoneNumberLBL;
         private System.Windows.Forms.TextBox PhoneNumberTB;
         private System.Windows.Forms.Button RegisterBTN;
+        private System.Windows.Forms.Label loginHeading;
+        private System.Windows.Forms.Label LoginUsernameLBL;
+        private System.Windows.Forms.TextBox LoginUsernameTB;
     }
 }
 
