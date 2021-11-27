@@ -19,9 +19,18 @@ namespace WindowsFormLogin
             this.user.ContactNumber = user.ContactNumber;
         }
 
+        public String LoginUser (String username, String password)
+        {
+            if (username != this.user.Username || password != this.user.Password)
+            {
+                return "This user does not exist";
+            } 
+            return DisplayUserPrintable();
+        }
+
         public String DisplayUserPrintable()
         {
-            String printable = String.Format("Username: {0}\n " +
+            String printable = String.Format("Username: {0}\n" +
                                             "Password: {1}\n" + 
                                             "Date of Birth: {2}\n" +
                                             "Address: {3}\n" + 
