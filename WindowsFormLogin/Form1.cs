@@ -39,6 +39,21 @@ namespace WindowsFormLogin
 
         private void LoginBTN_Click(object sender, EventArgs e)
         {
+            String userName = LoginUsernameTB.Text;
+            String password = LoginPasswordTB.Text;
+
+            bool validCustomer = controller.LoginUser(userName, password);
+
+            if (validCustomer)
+            {
+                StatusUserValLBL.Text = "Login Successful !";
+            }
+            else
+            {
+                StatusUserValLBL.Text = "Login Unsuccessful !";
+            }
+
+            validCustomer = false;
 
         }
     }
